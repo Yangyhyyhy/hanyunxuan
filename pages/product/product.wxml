@@ -1,0 +1,30 @@
+<!--pages/product/product.wxml-->
+<!-- 九宫格 -->
+<view class="index-nav">
+<block wx:for="{{navitems}}" wx:key="item.id">
+   <view class="nav-item">
+     <image src="{{item.img_url}}" lazy-load bindtap="" data-id="" mode='sapectFill'></image>
+     <text>{{item.title}}</text>
+   </view>
+   </block>
+</view>
+<view class="pro_tejia">
+  <text>今日特价</text>
+</view>
+
+  <!--今日特价-->
+<view class="container">
+    <scroll-view scroll-x="true">
+        <view class="item-content" wx:for="{{tejialist}}" wx:for-item="item">
+            <image src="{{item.img_url}}" lazy-load bindtap="" data-id="" mode='sapectFill'></image>
+            <view class="pro_content">{{item.title1}}</view>
+            <view class="pro_content">{{item.title2}}</view>
+        </view>
+    </scroll-view>
+</view>
+<view>
+  <image src='https://www.hanfuhui.cn/click?type=poster&id=1018' lazy-load mode='sapectFill'></image>
+</view>
+
+
+

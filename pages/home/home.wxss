@@ -1,0 +1,55 @@
+/* 功能一：轮播图*/
+.slider,.slider swiper,.slider image{
+  width: 100%;
+  height: 390rpx;
+  margin: 5rpx 0;
+}
+/*摄影标题 */
+.sy_title{
+  text-align: center;
+  font-size: 16px;
+  background:rgb(235, 228, 229);
+  color: lightcoral;
+}
+/*摄影区域 */
+/* 1；父元素弹性布局 */
+.remen_pic{
+		display: flex;
+		flex-wrap: wrap;
+		/*子元素换行*/
+		justify-content: space-between;
+		/*两端对齐*/
+		padding: 7rpx;
+		/*为子元素内补丁*/
+    
+	}
+/* 2；子元素弹性布局 */
+  .remen_pic_son{
+		width: 49%;
+		/*元素宽度*/
+		border-radius: 15rpx;
+		border: 1rpx solid #ccc;
+		/*边框*/
+		box-shadow: 0 0 10rpx #ccc;
+		/*阴影*/
+		margin-bottom: 8rpx;
+	}
+/* 3：修改图片高度宽度 */
+.remen_pic_son>image{
+    width: 99%;
+		border-radius: 15rpx 15rpx 0 0; 
+    height: 300rpx;
+}
+.remen_title{
+		text-align: center;
+		margin: 0;
+	}
+.remen_title text{
+		font-size: 12px;
+		margin: 0;
+	}
+/* 添加灰色分隔块 */
+.divider{
+  height: 10rpx;
+  background-color: #f1f1f1;
+}

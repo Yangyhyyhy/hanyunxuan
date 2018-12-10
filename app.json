@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/product/product",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/post/post",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FD4664",
+    "navigationBarTitleText": "汉云轩",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "fontsize":"16px",
+    "selectedColor": "#FD4664",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/home-active.png",
+        "selectedIconPath": "static/home-active.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "商城",
+        "iconPath": "static/shop.png",
+        "selectedIconPath": "static/shop-active.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "活动",
+        "iconPath": "static/news.png",
+        "selectedIconPath": "static/news-active.png"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "圈子",
+        "iconPath": "static/post.png",
+        "selectedIconPath": "static/post-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人",
+        "iconPath": "static/profile.png",
+        "selectedIconPath": "static/profile-active.png"
+      }
+    ]
+  }
+}
