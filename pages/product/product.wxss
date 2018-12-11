@@ -64,3 +64,43 @@ scroll-view {
   font-size: 12px;
   color: black
 }
+.pro_bg image{
+  width: 100%;
+  height: 200rpx;
+}
+/* 1；父元素弹性布局 */
+.remen_pic{
+		display: flex;
+		flex-wrap: wrap;
+		/*子元素换行*/
+		justify-content: space-between;
+		/*两端对齐*/
+		padding: 7rpx;
+		/*为子元素内补丁*/
+    
+	}
+/* 2；子元素弹性布局 */
+  .remen_pic_son{
+		width: 49%;
+		/*元素宽度*/
+		border-radius: 15rpx;
+		border: 1rpx solid #ccc;
+		/*边框*/
+		box-shadow: 0 0 10rpx #ccc;
+		/*阴影*/
+		margin-bottom: 8rpx;
+	}
+/* 3：修改图片高度宽度 */
+.remen_pic_son>image{
+    width: 99%;
+		border-radius: 15rpx 15rpx 0 0; 
+    height: 300rpx;
+}
+.remen_title{
+		text-align: center;
+		margin: 0;
+	}
+.remen_title text{
+		font-size: 12px;
+		margin: 0;
+	}

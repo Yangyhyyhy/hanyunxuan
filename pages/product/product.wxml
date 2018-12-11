@@ -22,9 +22,23 @@
         </view>
     </scroll-view>
 </view>
-<view>
-  <image src='https://www.hanfuhui.cn/click?type=poster&id=1018' lazy-load mode='sapectFill'></image>
+<view class='pro_bg'>
+  <image src='https://pic.hanfugou.com/pc/2016/6/7/14/bd27ad93fdf24f7c82a076a78c40609f.jpg_1920x315.jpg' lazy-load mode='sapectFill'></image>
 </view>
-
+<view class="pro_tejia">
+  <text>热买推荐</text>
+</view>
+<!-- 九宫格 -->
+<view class="remen_pic">
+<block wx:for="{{remenlist}}" wx:key="item.id">
+   <view class="remen_pic_son">
+     <image src="{{item.img_url}}" lazy-load bindtap="handleJumpNews"  mode='sapectFill'></image>
+     <view class="remen_title">
+     <text>{{item.title1}}\n{{item.title2}}</text><br/>
+     <text></text>
+     </view>  
+   </view>
+   </block>
+</view>
 
 
