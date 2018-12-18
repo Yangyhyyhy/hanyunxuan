@@ -6,8 +6,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    tejialist: [{id:1, img_url: "https://img.alicdn.com/imgextra/i1/3448729113/O1CN012HBnnpU3LWQRSsu_!!3448729113.jpg", title1: "￥88", title2:"￥188"},
-      { id: 2, img_url: "https://img.alicdn.com/imgextra/i2/2698574130/O1CN011gNaDGojMWAngg0_!!2698574130.jpg", title1: "￥188", title2: "￥88" },
+    tejialist: [{ id: 1, img_url: "http://img4.imgtn.bdimg.com/it/u=2578147246,3166973596&fm=11&gp=0.jpg", title1: "￥88", title2:"￥188"},
+      { id: 2, img_url: "http://img5.imgtn.bdimg.com/it/u=248710135,510254344&fm=26&gp=0.jpg", title1: "￥188", title2: "￥88" },
       { id: 3, img_url: "https://img.alicdn.com/imgextra/i3/1111438066/O1CN01UezXWb29SH946VqTt_!!1111438066.jpg", title1: "￥188", title2: "￥288" },
       { id: 4, img_url: "https://img.alicdn.com/imgextra/i2/1111438066/O1CN01u6MXXi29SH91RHqIP_!!1111438066.jpg", title1: "￥88", title2: "￥188" },
       { id: 5, img_url: "https://img.alicdn.com/imgextra/i1/1111438066/O1CN01mlUCDX29SH93dvwPt_!!1111438066.jpg", title1: "￥288", title2: "￥388" },
@@ -32,8 +32,8 @@ Page({
       { id: 4, img_url: "https://pic.hanfugou.com/pc/2017/5/9/21/bfcc10e1b5cf4d2f89a04b87a5d09a0a.jpg_2000.jpg" }
     ],
     remenlist: [
-      { id: 1, img_url: "https://imgsa.baidu.com/forum/w%3D580/sign=a2e7dd90083b5bb5bed720f606d2d523/c8b7fe03738da977b3c15a10bb51f8198718e3c3.jpg", title1: "《『世人皆怀念盛唐，我独爱...》", title2: "￥110" },
-      { id: 2, img_url: "https://imgsa.baidu.com/forum/w%3D580/sign=da3614fdc8fdfc03e578e3b0e43e87a9/0f3709e93901213faac4acdf5fe736d12e2e95e1.jpg", title1: "《少年的誓言》", title2: "￥310" },
+      { id: 1, img_url: "http://img3.imgtn.bdimg.com/it/u=2084478463,2400455016&fm=214&gp=0.jpg", title1: "《『世人皆怀念盛唐，我独爱...》", title2: "￥110" },
+      { id: 2, img_url: "http://img1.imgtn.bdimg.com/it/u=373951392,1972035049&fm=26&gp=0.jpg", title1: "《少年的誓言》", title2: "￥310" },
       { id: 3, img_url: "https://imgsa.baidu.com/forum/w%3D580/sign=f6fb2c523fa85edffa8cfe2b795509d8/69df124c510fd9f99de0106b2e2dd42a2934a4e0.jpg", title1: "遇见秋", title2: "￥200" },
       { id: 4, img_url: "https://imgsa.baidu.com/forum/w%3D580/sign=502bc00b75310a55c424defc87444387/537fc4bf6c81800abec5d3f6bd3533fa838b47c9.jpg", title1: "《何况旧欢新恨阻心期。空满...》", title2: "￥180" },
       { id: 5, img_url: "https://imgsa.baidu.com/forum/w%3D580/sign=27e4b8e26c59252da3171d0c049a032c/0001c7fc1e178a82471c2558fa03738da877e8ca.jpg", title1: "蝶恋花", title2: "￥160" },
