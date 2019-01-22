@@ -1,0 +1,21 @@
+<!--pages/product/details/details.wxml-->
+<text>商品详情页</text>
+<view class="card">
+
+  <form bindsubmit="checkForm">
+  <!-- <block wx:for="" wx:key=""> -->
+    <view class="cell-item">
+      <text>这是图片{{id}}</text>
+      
+      <image src="{{img_url}}" lazy-load mode='sapectFill'></image>
+    </view>
+       <view class="cell-item">
+      <text>价格{{price}}</text>
+    </view>
+    <view class="cell-item">
+      <button formType="submit">立即购买</button>
+    </view>
+    <!-- </block> -->
+  </form>   
+  
+ </view>

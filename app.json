@@ -6,17 +6,20 @@
     "pages/logs/logs",
     "pages/news/news",
     "pages/post/post",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/z-ceshi/ceshi",
+    "pages/product/details/details"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FD4664",
     "navigationBarTitleText": "汉云轩",
-    "navigationBarTextStyle": "white"
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#000",
-    "fontsize":"16px",
+    "fontsize": "16px",
     "selectedColor": "#FD4664",
     "position": "bottom",
     "list": [

@@ -25,12 +25,6 @@ Page({
       { id: 7, img_url: "../img/icon/icon6.png", title: "配饰周边" },
       { id: 8, img_url: "../img/icon/icon7.png", title: "更多" }
     ],
-    list: [
-      { id: 1, img_url: "https://pic.hanfugou.com/pc/2017/5/9/22/1c7c0a1302df4621884dbf2d3aa554d7.jpg_2000.jpg" },
-      { id: 2, img_url: "https://pic.hanfugou.com/pc/2017/5/9/22/8c2cfc1eb87748ecb5659acb8d83446a.JPG_2000.jpg" },
-      { id: 3, img_url: "https://pic.hanfugou.com/pc/2017/5/9/20/f200c58a2b1a4ef995b566a4421dfa09.jpg_2000.jpg" },
-      { id: 4, img_url: "https://pic.hanfugou.com/pc/2017/5/9/21/bfcc10e1b5cf4d2f89a04b87a5d09a0a.jpg_2000.jpg" }
-    ],
     remenlist: [
       { id: 1, img_url: "http://img3.imgtn.bdimg.com/it/u=2084478463,2400455016&fm=214&gp=0.jpg", title1: "《『世人皆怀念盛唐，我独爱...》", title2: "￥110" },
       { id: 2, img_url: "http://img1.imgtn.bdimg.com/it/u=373951392,1972035049&fm=26&gp=0.jpg", title1: "《少年的誓言》", title2: "￥310" },
@@ -40,6 +34,14 @@ Page({
       { id: 6, img_url: "https://imgsa.baidu.com/forum/w%3D580/sign=a1888c32a351f3dec3b2b96ca4eff0ec/f02904f3d7ca7bcb36d883d7b2096b63f724a84a.jpg", title1: "闺", title2: "￥150" }
 
     ]
+  },
+  jumpDetails: function (event) {
+    console.log(event)
+    let id = event.target.dataset.id;
+    //console.log(id)
+    wx.navigateTo({
+      url: '/pages/product/details/details?id=' + id
+    })
   },
 
   /**
@@ -96,5 +98,6 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  
 })

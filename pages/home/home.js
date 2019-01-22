@@ -24,6 +24,13 @@ Page({
       ]
   
   },
+  handleJumpNews: function (event) {
+    let id = event.target.dataset.id;
+    //console.log(id)
+    wx.navigateTo({
+      url: '/pages/product/details/details?id='+id
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
@@ -80,10 +87,11 @@ Page({
   onShareAppMessage: function () {
 
   },
-  handleJumpNews: function (event) {
-    var id = event.target.dataset.id;
-      wx.navigateTo({
-        url: "/pages/post/post",
-      })
-  }
+  /**
+    * 监听用户滑动操作
+    */
+  onPageScroll: function (obj) {
+    console.log(obj)
+  },
+  
 })

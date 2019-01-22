@@ -29,7 +29,7 @@ page{
 /*5 图片 */
 .card-img{
   width: 100%;
-  height: 300rpx;
+  height: 400rpx;
 }
 /*6 描述 */
 .card-desc{

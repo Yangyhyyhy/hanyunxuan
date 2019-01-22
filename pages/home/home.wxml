@@ -18,7 +18,7 @@
 <view class="remen_pic">
 <block wx:for="{{remenlist}}" wx:key="item.id">
    <view class="remen_pic_son">
-     <image src="{{item.img_url}}" lazy-load bindtap="handleJumpNews"  mode='sapectFill'></image>
+     <image src="{{item.img_url}}" lazy-load data-id='{{item.id}}' bindtap="handleJumpNews"  mode='sapectFill'></image>
      <view class="remen_title">
      <text>{{item.title1}}\n{{item.title2}}</text><br/>
      <text></text>
